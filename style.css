@@ -1,0 +1,66 @@
+.inputfood{
+    width: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.submit{
+    background-color:lightgreen;
+    border:none !important;
+    padding:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+.submitted{
+    background-color:lightgreen;
+    border:none !important;
+    padding:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+
+}
+
+.food-items{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.labels{
+    display: flex;
+    width: 100%;
+    height:20vh;
+    flex-wrap:wrap ;
+    justify-content:space-between;
+}
+
+.label{
+
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+    width:fit-content;
+    height:2rem;
+    background-color:rgb(25, 207, 207);
+    font-weight: bolder;
+    border-radius:2rem;
+    
+
+
+
+}
