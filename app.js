@@ -102,20 +102,17 @@ const showData = () => {
         totalDaily.potash+=item.totalNutrients.K?.quantity;
 
    });
-
-
-   console.log(totalDaily);
-
-   document.getElementById("totalcal").textContent=`Total Calories:${calories}`;
-   document.getElementById("totalw").textContent=`Total Calories:${totalWeight}`;
+    
+      document.getElementById("totalcal").textContent=`Total Calories : ${calories} cal`;
+   document.getElementById("totalw").textContent=`Total Weight :  ${totalWeight} g`;
    const labels =document.createElement("div");
+   labels.className="labels d flex";
 
    healthLabels.forEach((item,index)=>
    {
 
     if(index<=10){
 
-        labels.className="labels";
         const label =document.createElement("div");
         label.className="label";
         label.textContent=item;
@@ -126,10 +123,9 @@ const showData = () => {
 
    });
 
-
+   
    document.getElementById("health").append(labels);
 
 
-   
 
 }
